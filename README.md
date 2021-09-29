@@ -73,7 +73,13 @@ Break : mesure de la fréquence et de la phase d'un signal en continu OK, mais q
 Break : comment mieux voir en quoi ces 6 paramètres décrivent complètement la pose de la mire
 
 4) Propriété des signaux périodiques 2D (2/2)
+    - Ce qu'on voit à l'écran : vue 3D mire périodique dans l'espace + Image de la mire sur le capteur caméra + densité spectrale de la mire
+    - Montre le lien entre pose de la mire et position des pics fréquentiels. Les 4 coeffs a1, b1, a2, b2 sont liés à ces positions et phi1, phi2 à la phase de la mire
+
+Break : Comment exploiter ces 6 informations indépendantes pour mesurer la pose 3d de la mire ?
+
 5) Quid du 3D ?
+    - 
 6) Équivalence spatial - spectral
 7) Mesure de pose 3D d’une mire 2D
 8) Mesure de pose complète et non ambigüe d’une mire 2D
