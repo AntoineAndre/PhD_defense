@@ -79,15 +79,26 @@ Break : comment mieux voir en quoi ces 6 paramètres décrivent complètement la
 Break : Comment exploiter ces 6 informations indépendantes pour mesurer la pose 3d de la mire ?
 
 5) Quid du 3D ?
-    - 
+    - Explication figure : projection d'une image de mire vers la caméra avec une projection ortho. Puis schéma
+    - Pourquoi ce modèle est intéressant
 6) Équivalence spatial - spectral
+    - lien entre position des pics fréquentiels, coefficients des plans de phase et position spatiale des périodes
+    - Comment exploiter ces informations pour mesurer la pose 3D ?
 7) Mesure de pose 3D d’une mire 2D
+    - Projection des points de la mire vers la caméra avec projection ortho
+    - 4 équations non linéaires, 3 inconnues
+    - Ambiguïté
+
+Break : comment lever cette ambiguïté ? Utiliser un autre modèle de projection
+
 8) Mesure de pose complète et non ambigüe d’une mire 2D
+    - Bien faire le lien entre période apparente et distance de la mire par rapport à la caméra
 9) Extension de la plage de mesure
 10) Décodage robuste et absolu de la position
 
 ### Validation et performances
 1) Résolutions atteintes (1/3)
+    - Diversité des actionneurs utilisés : translation, rotation, grandement résolu, moins résolu mais grande plage etc.
 2) Résolutions atteintes (2/3)
 3) Résolutions atteintes (3/3)
 4) Essais de robustesse à la dégradation des images acquises
@@ -95,8 +106,10 @@ Break : Comment exploiter ces 6 informations indépendantes pour mesurer la pose
 ### Applications à la microrobotique
 1) Développement d’une bibliothèque logicielle polyvalente (1/2)
 2) Développement d’une bibliothèque logicielle polyvalente (2/2)
+    - Complexité en O(n log(n))
 3) Étalonnage de microrobots à articulations souples
-4) Mesure duale force – déplacement sur fibre végétale 
+4) Mesure duale force – déplacement sur fibre végétale
+    - Matériaux bio-sourcés
 5) Micro-assemblage de puces micro-fluidiques
 
 ### Conclusions et perspectives
