@@ -96,6 +96,8 @@ Break : comment lever cette ambiguïté ? Utiliser un autre modèle de projectio
 9) Extension de la plage de mesure
 10) Décodage robuste et absolu de la position
 
+**Rajouter conclus sur les méthodes et transitions vers résultats**
+
 ### Validation et performances
 1) Résolutions atteintes (1/3)
     - Diversité des actionneurs utilisés : translation, rotation, grandement résolu, moins résolu mais grande plage etc.
