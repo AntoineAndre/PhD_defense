@@ -1,6 +1,10 @@
 # Soutenance de thèse
 Repository containing the source files for the PhD oral defense
 
+![](videos\part_4_applications\periodicpattern2.gif)![](videos\part_4_applications\bitmappattern_0.gif)
+
+![](videos\part_4_applications\megarenapattern.gif)![](videos\part_4_applications\HPCode_pattern.gif)
+
 ## Plan
 
 ### Introduction
