@@ -7,7 +7,7 @@ Repository containing the source files for the PhD oral defense
 
 ## Plan
 
-### Introduction
+### Introduction - 2 slides
 Avant de commencer je tiens à remercier les membres du jury pour leur présence aujourd’hui, que ce soit en présentiel ou à distance ainsi que mes directeurs de thèse pour leur accompagnement et leur soutien tout au long de ce doctorat…
 Institut FEMTO-ST, laboratoire AS2M
 
@@ -26,7 +26,7 @@ Contexte : microrobotique
 
 Break : Mesure de position difficile en microscopie, maintenant étude des solution existantes
 
-### État de l'art
+### État de l'art - 3 slides
 1) Aperçu des méthodes de mesure de position en microscopie
     - Présenter l'échelle de résolution
     - 3 grandes familles de méthodes
@@ -47,7 +47,7 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
 
 Break : Après avoir vu les verrous de la mesure de pose en microscopie, étudions en quoi les mires périodiques permettent de répondre aux différents objectifs fixés.
 
-### Méthode de mesure de pose
+### Méthode de mesure de pose - 8 slides
 1) Propriété des signaux périodiques 1D continus
     - Signal sinusoïdal continu + représentation en niveaux de gris
     - Transformée de Fourier = Décomposition en fréquences d'un signal spatial
@@ -66,7 +66,7 @@ Break : mesure de la fréquence et de la phase d'un signal en continu OK, mais q
 
     Break : Mesure des paramètres d'un signal 1D échantillonné OK, maintenant extension aux signaux 2D
 
-3) Propriété des signaux périodiques 2D (1/2)
+3) Propriété des signaux périodiques 2D
     - Processus de création : Extension d'un signal périodique 1D en 2D + angle
     - Représentation du signal en niveaux de gris
     - Multiplication des deux mires 2D à 1 direction 
@@ -76,7 +76,7 @@ Break : mesure de la fréquence et de la phase d'un signal en continu OK, mais q
 
 Break : comment mieux voir en quoi ces 6 paramètres décrivent complètement la pose de la mire
 
-4) Propriété des signaux périodiques 2D (2/2)
+4) Mesure de position des mires périodiques 2D
     - Ce qu'on voit à l'écran : vue 3D mire périodique dans l'espace + Image de la mire sur le capteur caméra + densité spectrale de la mire
     - Montre le lien entre pose de la mire et position des pics fréquentiels. Les 4 coeffs a1, b1, a2, b2 sont liés à ces positions et phi1, phi2 à la phase de la mire
 
@@ -85,46 +85,48 @@ Break : Comment exploiter ces 6 informations indépendantes pour mesurer la pose
 5) Quid du 3D ?
     - Explication figure : projection d'une image de mire vers la caméra avec une projection ortho. Puis schéma
     - Pourquoi ce modèle est intéressant
-6) Équivalence spatial - spectral
     - lien entre position des pics fréquentiels, coefficients des plans de phase et position spatiale des périodes
     - Comment exploiter ces informations pour mesurer la pose 3D ?
-7) Mesure de pose 3D d’une mire 2D
+6) Mesure de pose 3D d’une mire 2D
     - Projection des points de la mire vers la caméra avec projection ortho
     - 4 équations non linéaires, 3 inconnues
     - Ambiguïté
 
 Break : comment lever cette ambiguïté ? Utiliser un autre modèle de projection
 
-8) Mesure de pose complète et non ambigüe d’une mire 2D
-    - Bien faire le lien entre période apparente et distance de la mire par rapport à la caméra
-9) Extension de la plage de mesure
-10) Décodage robuste et absolu de la position
+7) Extension de la plage de mesure
+8) Décodage robuste et absolu de la position
 
 **Rajouter conclus sur les méthodes et transitions vers résultats**
 
-### Validation et performances
-1) Résolutions atteintes (1/3)
+### Validation et performances - 5 slides
+1) Résolutions planaires atteintes (1/2)
     - Diversité des actionneurs utilisés : translation, rotation, grandement résolu, moins résolu mais grande plage etc.
-2) Résolutions atteintes (2/3)
-3) Résolutions atteintes (3/3)
-4) Essais de robustesse à la dégradation des images acquises
+    - limite = environnement, pas la méthode
+2) Résolutions planaires atteintes (2/2)
+3) Résolutions hora-plans atteintes (1/2)
+4) Résolutions hora-plans atteintes (2/2)
+5) Essais de robustesse à la dégradation des images acquises
 
-### Applications à la microrobotique
+### Applications à la microrobotique - 6 slides
 1) Développement d’une bibliothèque logicielle polyvalente (1/2)
 2) Développement d’une bibliothèque logicielle polyvalente (2/2)
     - Complexité en O(n log(n))
 3) Étalonnage de microrobots à articulations souples
-4) Mesure duale force – déplacement sur fibre végétale
+4) Étalonnage de microrobots à articulations souples
+5) Mesure duale force – déplacement sur fibre végétale
     - Matériaux bio-sourcés
-5) Micro-assemblage de puces micro-fluidiques
+6) Micro-assemblage de puces micro-fluidiques
 
-### Conclusions et perspectives
+### Conclusions et perspectives - 7 slides
 1) Conclusions (1/2)
 2) Conclusions (2/2)
-3) Perspectives : la microscopie à holographie numérique (1/3)
-4) Perspectives : la microscopie à holographie numérique (2/3)
-5) Perspectives : la microscopie à holographie numérique (3/3)
+3) Perspectives : la microscopie à holographie numérique (1/4)
+4) Perspectives : la microscopie à holographie numérique (2/4)
+5) Perspectives : la microscopie à holographie numérique (3/4)
+5) Perspectives : la microscopie à holographie numérique (4/4)
 6) Perspectives : Vers des mires non planaires
+7) Bilan des publications
 
 ### Slides pour questions
 - Robustesse de la méthode de décodage
