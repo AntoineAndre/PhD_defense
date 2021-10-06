@@ -126,6 +126,8 @@ Break : comment lever cette ambiguïté ? Utiliser un autre modèle de projectio
 4) Perspectives : la microscopie à holographie numérique (2/4)
 5) Perspectives : la microscopie à holographie numérique (3/4)
 5) Perspectives : la microscopie à holographie numérique (4/4)
+    - Applicable surtout dans le cas micro
+    - Encombrant
 6) Perspectives : Vers des mires non planaires
 7) Bilan des publications
 
