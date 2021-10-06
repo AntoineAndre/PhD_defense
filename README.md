@@ -1,9 +1,7 @@
 # Soutenance de thèse
 Repository containing the source files for the PhD oral defense
 
-![](https://projects.femto-st.fr/vernier/sites/femto-st.fr.vernier/files/content/images/periodicpattern2.gif)![](https://projects.femto-st.fr/vernier/sites/femto-st.fr.vernier/files/content/images/bitmappattern_0.gif)
-
-![](https://projects.femto-st.fr/vernier/sites/femto-st.fr.vernier/files/content/images/megarenapattern.gif)![](https://projects.femto-st.fr/vernier/sites/femto-st.fr.vernier/files/content/images/qrcodepattern.gif)
+![](videos\part_4_applications\assemblage_types_mires.gif)
 
 ## Plan
 
@@ -21,7 +19,7 @@ Contexte : microrobotique
     - Exemple des difficultés pour la mesure de position en microscopie
     - Distance de travail très courtes
     - Longues focales + objectifs de microscopes
-    - Profondeur de champ réduite + difficultés d'illuminer correctement la scène
+    - Profondeur de champ réduite + difficultés d'illuminer`` correctement la scène
     - DONC Méthodes stéréo vision impossibles à mettre en place + Mesure planaire seulement
 
 Break : Mesure de position difficile en microscopie, maintenant étude des solution existantes
