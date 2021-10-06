@@ -1,7 +1,9 @@
 # Soutenance de thèse
 Repository containing the source files for the PhD oral defense
 
-![](videos\part_4_applications\assemblage_types_mires.gif)
+<video src="videos/part_4_applications/types_mires_assemblage.gif" width="512" height="512" controls autoplay loop></video>
+
+![](videos/part_4_applications/types_mires_assemblage.gif)
 
 ## Plan
 
