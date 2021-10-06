@@ -34,6 +34,7 @@ Break : Mesure de position difficile en microscopie, maintenant étude des solut
     - Meilleure résolution : même méthode mais avec un objet plus structuré
     - Utiliser la totalité de l'image et effectuer une corrélation entre images
     - Structurer complètement la scène avec des marqueurs périodiques
+    - Structurer = contrebalancer le rapport signal sur bruit qui diminue
     - Mesure de phase = ultra résolue DONC c'est ce qu'on va faire
 Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule période
 2) Marqueurs périodiques et mesure de phase
