@@ -103,7 +103,10 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
 **Break** : On sait maintenant mesurer la pose d'une mire selon 5 DDL + facteur d'échelle s. Maintenant on souhaite étudier comment augmenter la plage de mesure.
 
 7) Extension de la plage de mesure
+    - Bits de la séquence codée insérés une période sur 3
+    - Nom de cette configuration de la mire codée = **Megarena**
 8) Décodage robuste et absolu de la position
+    - Seuillage adaptatif **local**
 
 **Rajouter conclus sur les méthodes et transitions vers résultats**
 
@@ -112,21 +115,24 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
     - Diversité des actionneurs utilisés : translation, rotation, grandement résolu, moins résolu mais grande plage etc.
     - **limite = environnement, pas la méthode**
 2) Résolutions planaires atteintes (2/2)
-3) Résolutions hora-plans atteintes (1/2)
-4) Résolutions hora-plans atteintes (2/2)
+3) Résolutions hors-plans atteintes (1/2)
+4) Résolutions hors-plans atteintes (2/2)
 5) Essais de robustesse à la dégradation des images acquises
     - Rapport signal sur bruit très défavorable
 
 ### Applications à la microrobotique - 6 slides
 1) Développement d’une bibliothèque logicielle polyvalente (1/2)
+    - 3 branches principales
 2) Développement d’une bibliothèque logicielle polyvalente (2/2)
     - Dépôt logiciel
     - Complexité en O(n log(n))
 3) Étalonnage de microrobots à articulations souples (1/2)
     - **Robot parallèle continu plus performant que version articulaire**
 4) Étalonnage de microrobots à articulations souples (2/2)
+    - Utilisation des mires avec plusieurs échelles (mire 140 microns et 9 microns)
 5) Mesure duale force – déplacement sur fibre végétale
     - Matériaux bio-sourcés
+    - Pas de capteur avec une assez grande plage et une assez grande résolution existant
 6) Micro-assemblage de puces micro-fluidiques
     - Asservissement visuel
 
