@@ -1,8 +1,6 @@
 # Soutenance de thèse
 Repository containing the source files for the PhD oral defense
 
-<video src="videos/part_4_applications/types_mires_assemblage.gif" width="512" height="512" controls autoplay loop></video>
-
 ![](videos/part_4_applications/types_mires_assemblage.gif)
 
 ## Plan
@@ -39,7 +37,7 @@ Contexte : microrobotique
     - Meilleure résolution : même méthode mais avec un objet plus structuré
     - Utiliser la totalité de l'image et effectuer une corrélation entre images
     - Structurer complètement la scène avec des marqueurs périodiques
-    - Structurer = contrebalancer le rapport signal sur bruit qui diminue
+    - **Structurer = contrebalancer le rapport signal sur bruit qui diminue + rejeter le bruit**
     - Mesure de phase = ultra résolue DONC c'est ce qu'on va faire
 Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule période
 2) Marqueurs périodiques et mesure de phase
@@ -56,6 +54,7 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
 ### Méthode de mesure de pose - 8 slides
 1) Propriété des signaux périodiques 1D continus
     - Signal sinusoïdal continu + représentation en niveaux de gris
+    - Signal translaté -> lien translation et phase
     - Transformée de Fourier = Décomposition en fréquences d'un signal spatial
     - Dual : représentation de la fréquences et de l'angle
 
@@ -116,12 +115,15 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
 3) Résolutions hora-plans atteintes (1/2)
 4) Résolutions hora-plans atteintes (2/2)
 5) Essais de robustesse à la dégradation des images acquises
+    - Rapport signal sur bruit très défavorable
 
 ### Applications à la microrobotique - 6 slides
 1) Développement d’une bibliothèque logicielle polyvalente (1/2)
 2) Développement d’une bibliothèque logicielle polyvalente (2/2)
+    - Dépôt logiciel
     - Complexité en O(n log(n))
 3) Étalonnage de microrobots à articulations souples (1/2)
+    - **Robot parallèle continu plus performant que version articulaire**
 4) Étalonnage de microrobots à articulations souples (2/2)
 5) Mesure duale force – déplacement sur fibre végétale
     - Matériaux bio-sourcés
@@ -131,12 +133,24 @@ Notre cas d'étude = mires périodiques, mais plage de mesure d'une seule pério
 ### Conclusions et perspectives - 7 slides
 1) Conclusions (1/2)
 2) Conclusions (2/2)
-3) Perspectives : la microscopie à holographie numérique (1/4)
+    - Comment augmenter effectuer une mesure du z en microscopie ?
+        - Utiliser du depth from focus
+        - Si relief, utiliser du confocal
+        - Sinon, placer un interféromètre couplé au microscope
+3) Perspectives : la microscopie à holographie numérique
+    - Limites de la microscopie classique : n'utilise que l'intensité de la lumière
+    - Holographie = méthode pour mesurer à la fois la phase et l'intensité d'un signal lumineux
+    - Grande résolution car principe interférentiel
 4) Principe de mesure 6 DDL en holographie numérique
+    - figures d'interférence, **défocalisée, mais contient toute l'info de l'objet**
+    - Reconstruction qui donne intensité et phase
+    - Intensité -> mesure xy alpha ultra résolue
+    - phase -> mesure z, beta gamma ultra résolue
 5) Résultats préliminaires de mesure 6 DDL grandement résolue
 5) Particularités de l’holographie numérique
     - Applicable surtout dans le cas micro
     - Encombrant
+    - Difficulté de déterminer la distance de reconstruction de l'hologramme
 6) Perspectives : Vers des mires non planaires
 7) Bilan des publications
 
